@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9" pages="7">
   <diagram name="Page-1" id="u2sz81hyQVn8kZ3CrKQu">
     <mxGraphModel dx="2489" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1262,6 +1262,64 @@
         </mxCell>
         <mxCell id="hizgr9jWhlCv2i8TZ-bc-22" parent="hizgr9jWhlCv2i8TZ-bc-19" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elasticache;" value="Amazon ElastiCache" vertex="1">
           <mxGeometry height="110" width="80" x="60" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lET9Fryg0ihWKH4uciax" name="Sonicplatform DMS MySQL">
+    <mxGraphModel dx="1639" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-1" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" value="Sonicwall Datacenter" vertex="1">
+          <mxGeometry height="150" width="200" x="234" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-2" edge="1" parent="7Z9rx_7tpouDBYiJxwqc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582" y="467" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-12" parent="7Z9rx_7tpouDBYiJxwqc-1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="Mysonicwall MySQL DB" vertex="1">
+          <mxGeometry height="64.5" width="60" x="70" y="52.75" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-4" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" value="AWS Sonicplatform Account" vertex="1">
+          <mxGeometry height="210" width="420" x="530" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-5" edge="1" parent="7Z9rx_7tpouDBYiJxwqc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582" y="467" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-8" parent="7Z9rx_7tpouDBYiJxwqc-4" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#6c8ebf;fillColor=#dae8fc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" value="Private VPC" vertex="1">
+          <mxGeometry height="150" width="380" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-9" edge="1" parent="7Z9rx_7tpouDBYiJxwqc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="582" y="467" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-7" parent="7Z9rx_7tpouDBYiJxwqc-8" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" value="RDS MySQL Instance" vertex="1">
+          <mxGeometry height="78" width="78" x="270" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-16" edge="1" parent="7Z9rx_7tpouDBYiJxwqc-8" source="7Z9rx_7tpouDBYiJxwqc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7Z9rx_7tpouDBYiJxwqc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-14" parent="7Z9rx_7tpouDBYiJxwqc-8" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.dms_data_management_service;" value="" vertex="1">
+          <mxGeometry height="70.65" width="68.42" x="70" y="40.35" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-15" parent="7Z9rx_7tpouDBYiJxwqc-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Database Migration Service DMS Instance" vertex="1">
+          <mxGeometry height="30" width="170" x="20" y="114" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-17" edge="1" parent="1" source="7Z9rx_7tpouDBYiJxwqc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="7Z9rx_7tpouDBYiJxwqc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-19" edge="1" parent="1" source="7Z9rx_7tpouDBYiJxwqc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655.1999999999998" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Z9rx_7tpouDBYiJxwqc-21" parent="1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json" value="JSON Config of tables/schemas to replicate" vertex="1">
+          <mxGeometry height="75.8" width="70" x="620" y="700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
