@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.7" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.5.5" pages="11">
   <diagram name="Page-1" id="u2sz81hyQVn8kZ3CrKQu">
     <mxGraphModel dx="2489" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1677,6 +1677,50 @@
         </mxCell>
         <mxCell id="d45ucmFoBPmTeunDdLnk-4" parent="geg0Yl_F92QL-vZP_UGA-18" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticsearch_service;" value="Managed Opensearch" vertex="1">
           <mxGeometry height="78" width="78" x="405" y="68" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Pq59LHuS7OiGkZg8-bL6" name="SAMI custom metric data">
+    <mxGraphModel dx="2243" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-3" edge="1" parent="1" source="7dskevu_20drFzIx1dUn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pP8zBh8MsMbIsYu5wiTD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-6" edge="1" parent="1" source="7dskevu_20drFzIx1dUn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pP8zBh8MsMbIsYu5wiTD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dskevu_20drFzIx1dUn-1" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" value="EKS Cluster" vertex="1">
+          <mxGeometry height="160" width="430" x="-200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="8CrGOpodJBqu51e6cyqb-1" parent="7dskevu_20drFzIx1dUn-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://raw.githubusercontent.com/gilbarbara/logos/main/logos/opentelemetry-icon.svg;" value="OTel colletor" vertex="1">
+          <mxGeometry height="80" width="80" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qt8Ysxvv4ohrIhvPCZqG-3" parent="7dskevu_20drFzIx1dUn-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scheduler;pointerEvents=1;" value="Schedule every 6 hours" vertex="1">
+          <mxGeometry height="50" width="40" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qt8Ysxvv4ohrIhvPCZqG-1" parent="7dskevu_20drFzIx1dUn-1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.opsmx.com/wp-content/uploads/2022/07/Argo-1-e1630327305635-1.png;" value="Argo CronWorkflows" vertex="1">
+          <mxGeometry height="80" width="120.58" x="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7dskevu_20drFzIx1dUn-4" edge="1" parent="7dskevu_20drFzIx1dUn-1" source="qt8Ysxvv4ohrIhvPCZqG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="8CrGOpodJBqu51e6cyqb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-2" edge="1" parent="7dskevu_20drFzIx1dUn-1" source="qt8Ysxvv4ohrIhvPCZqG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qt8Ysxvv4ohrIhvPCZqG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-1" parent="1" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://media.trustradius.com/product-logos/lx/sM/1CKE55ESXWTH.PNG;" value="New Relic Dashboard" vertex="1">
+          <mxGeometry height="110" width="95.19" x="350" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="-24" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-8" edge="1" parent="1" source="pP8zBh8MsMbIsYu5wiTD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7dskevu_20drFzIx1dUn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pP8zBh8MsMbIsYu5wiTD-7" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Travelling_icon_set__Ist_part-2079/helm-979.svg" value="SAMI Helm Chart" vertex="1">
+          <mxGeometry height="100" width="100" x="-35" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
