@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" pages="14">
   <diagram name="Page-1" id="u2sz81hyQVn8kZ3CrKQu">
     <mxGraphModel dx="2489" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1461,7 +1461,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Cat9Gbr2C63aRZE9Kknd" name="Cloudwatch Logging Arch">
-    <mxGraphModel dx="1393" dy="1183" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="1690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1927,6 +1927,498 @@
         </mxCell>
         <mxCell id="VG97S2MQ4WZYjp7FU2q8-88" parent="VG97S2MQ4WZYjp7FU2q8-89" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vpc;" value="IP Address Managment&amp;nbsp;&lt;br&gt;(IPAM)" vertex="1">
           <mxGeometry height="78" width="78" x="56" y="61" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FBwM4adKNJfVtMQmdYOi" name="ssp-terraform-arch">
+    <mxGraphModel dx="1635" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1a1a2e;" value="SSP Production Architecture — Multi-Region (eu-central-1 + us-west-2)" vertex="1">
+          <mxGeometry height="40" width="1500" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="230" width="160" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;" value="Legend" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Networking" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Compute / Kubernetes" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Data &amp; Storage" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" value="Messaging &amp; Streaming" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="Security &amp; Identity" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#555555;fontSize=10;" value="Observability &amp; Monitoring" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Global / Cross-Region" vertex="1">
+          <mxGeometry height="22" width="140" x="30" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-11" parent="1" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Internet / End Users" vertex="1">
+          <mxGeometry height="80" width="200" x="820" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-12" parent="1" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;fontColor=#ffffff;rounded=1;arcSize=10;" value="Amazon CloudFront&#xa;(SMA CDN)&#xa;aws_cloudfront_distribution" vertex="1">
+          <mxGeometry height="60" width="60" x="640" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-13" parent="1" style="text;html=1;align=center;fontSize=9;fontColor=#333;" value="CloudFront&#xa;(SMA CDN)" vertex="1">
+          <mxGeometry height="30" width="110" x="615" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-14" parent="1" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#DD344C;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1060" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-15" parent="1" style="text;html=1;align=center;fontSize=9;fontColor=#333;" value="AWS WAF&#xa;(Regional)" vertex="1">
+          <mxGeometry height="30" width="100" x="1040" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-16" parent="1" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1200" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-17" parent="1" style="text;html=1;align=center;fontSize=9;fontColor=#333;" value="Route 53&#xa;(Public + Private Zones)&#xa;aws_route53_zone" vertex="1">
+          <mxGeometry height="30" width="130" x="1170" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-18" parent="1" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.certificate_manager;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#DD344C;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="1380" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-19" parent="1" style="text;html=1;align=center;fontSize=9;fontColor=#333;" value="ACM&#xa;(*.sonicwall.com)&#xa;aws_acm_certificate" vertex="1">
+          <mxGeometry height="30" width="120" x="1355" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-20" parent="1" style="swimlane;fontStyle=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=30;" value="Global / Cross-Region Resources" vertex="1">
+          <mxGeometry height="100" width="1560" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-21" parent="8YOnArAEsR3aDrTVIsZX-20" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aurora;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#C7131F;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="30" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-22" parent="8YOnArAEsR3aDrTVIsZX-20" style="text;html=1;align=center;fontSize=9;" value="Aurora PostgreSQL 15&#xa;Global Database&#xa;aws_rds_global_cluster" vertex="1">
+          <mxGeometry height="30" width="130" x="10" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-23" parent="8YOnArAEsR3aDrTVIsZX-20" style="text;html=1;align=left;fontSize=10;fontStyle=2;strokeColor=none;fillColor=none;" value="Primary: us-west-2  |  Secondary: eu-central-1  |  db.r7g.xlarge × 3  |  Write-forwarding enabled" vertex="1">
+          <mxGeometry height="30" width="750" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-24" parent="8YOnArAEsR3aDrTVIsZX-20" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.msk;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#E7157B;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="950" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-25" parent="8YOnArAEsR3aDrTVIsZX-20" style="text;html=1;align=center;fontSize=9;" value="MSK Replicator&#xa;usw2 → euc1&#xa;aws_msk_replicator" vertex="1">
+          <mxGeometry height="30" width="130" x="930" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-26" parent="8YOnArAEsR3aDrTVIsZX-20" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1100" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-27" parent="8YOnArAEsR3aDrTVIsZX-20" style="text;html=1;align=center;fontSize=9;" value="Glue Schema Registry&#xa;(Kafka data contracts)&#xa;aws_glue_registry" vertex="1">
+          <mxGeometry height="30" width="140" x="1075" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-28" parent="8YOnArAEsR3aDrTVIsZX-20" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#3F8624;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="1270" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-29" parent="8YOnArAEsR3aDrTVIsZX-20" style="text;html=1;align=center;fontSize=9;" value="S3 Buckets&#xa;(Terraform State, EMR Logs,&#xa;SonicBot KB, SPC Data)" vertex="1">
+          <mxGeometry height="30" width="150" x="1240" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-30" parent="1" style="swimlane;fontStyle=1;fontSize=13;fillColor=#E8F4FD;strokeColor=#2980B9;startSize=35;rounded=1;arcSize=3;" value="AWS Region: eu-central-1 (Frankfurt)" vertex="1">
+          <mxGeometry height="980" width="760" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-31" parent="8YOnArAEsR3aDrTVIsZX-30" style="swimlane;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=25;rounded=1;" value="VPC: 10.164.160.0/20  |  3 AZs  |  aws_vpc" vertex="1">
+          <mxGeometry height="200" width="720" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-32" parent="8YOnArAEsR3aDrTVIsZX-31" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-33" parent="8YOnArAEsR3aDrTVIsZX-31" style="text;html=1;align=center;fontSize=9;" value="Transit Gateway&#xa;(TGW Attachment)&#xa;aws_ec2_transit_gateway_vpc_attachment" vertex="1">
+          <mxGeometry height="30" width="140" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-34" parent="8YOnArAEsR3aDrTVIsZX-31" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.nat_gateway;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="200" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-35" parent="8YOnArAEsR3aDrTVIsZX-31" style="text;html=1;align=center;fontSize=9;" value="NAT Gateway&#xa;(Single, Public Subnet)&#xa;aws_nat_gateway" vertex="1">
+          <mxGeometry height="30" width="130" x="170" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-36" parent="8YOnArAEsR3aDrTVIsZX-31" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.application_load_balancer;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="390" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-37" parent="8YOnArAEsR3aDrTVIsZX-31" style="text;html=1;align=center;fontSize=9;" value="ALB / NLB&#xa;(AWS LB Controller)&#xa;helm_release" vertex="1">
+          <mxGeometry height="30" width="130" x="360" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-38" parent="8YOnArAEsR3aDrTVIsZX-31" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="570" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-39" parent="8YOnArAEsR3aDrTVIsZX-31" style="text;html=1;align=center;fontSize=9;" value="Bastion Host&#xa;(t2.small, Private Subnet)&#xa;aws_instance" vertex="1">
+          <mxGeometry height="30" width="140" x="540" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-40" parent="8YOnArAEsR3aDrTVIsZX-30" style="swimlane;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;startSize=25;rounded=1;" value="EKS Cluster: ssp-prod-pae-euc1  (Kubernetes 1.32  |  aws_eks_cluster)" vertex="1">
+          <mxGeometry height="340" width="720" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-41" parent="8YOnArAEsR3aDrTVIsZX-40" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2_auto_scaling;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-42" parent="8YOnArAEsR3aDrTVIsZX-40" style="text;html=1;align=center;fontSize=9;" value="Node Group&#xa;t4g.large (ARM64)&#xa;1–5 nodes (AL2023)" vertex="1">
+          <mxGeometry height="35" width="130" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-43" parent="8YOnArAEsR3aDrTVIsZX-40" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2_auto_scaling;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="160" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-44" parent="8YOnArAEsR3aDrTVIsZX-40" style="text;html=1;align=center;fontSize=9;" value="Karpenter v1.2.0&#xa;(Dynamic Node Scaling)&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="140" x="135" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-45" parent="8YOnArAEsR3aDrTVIsZX-40" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.general;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="320" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-46" parent="8YOnArAEsR3aDrTVIsZX-40" style="text;html=1;align=center;fontSize=9;" value="ArgoCD + Workflows&#xa;+ Rollouts&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="130" x="295" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-47" parent="8YOnArAEsR3aDrTVIsZX-40" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="480" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-48" parent="8YOnArAEsR3aDrTVIsZX-40" style="text;html=1;align=center;fontSize=9;" value="Kong Gateway v4&#xa;(2–8 replicas, KEDA)&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="140" x="455" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-49" parent="8YOnArAEsR3aDrTVIsZX-40" style="swimlane;fontStyle=1;fontSize=10;fillColor=#f0fff0;strokeColor=#82b366;startSize=20;rounded=1;" value="Managed Add-ons &amp; Agents" vertex="1">
+          <mxGeometry height="60" width="685" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-50" parent="8YOnArAEsR3aDrTVIsZX-49" style="text;html=1;align=center;fontSize=9;" value="VPC CNI  |  CoreDNS  |  EBS CSI (gp2/gp3)  |  Cert Manager  |  External DNS  |  External Secrets  |  Pod Identity  |  AWS GuardDuty  |  OpenTelemetry v5  |  New Relic  |  Kyverno  |  Teleport v2  |  KEDA  |  Metrics Server  |  CloudZero  |  Port K8s Exporter" vertex="1">
+          <mxGeometry height="30" width="675" x="5" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-51" parent="8YOnArAEsR3aDrTVIsZX-40" style="swimlane;fontStyle=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=20;rounded=1;" value="Pod Identities (aws_eks_pod_identity_association)" vertex="1">
+          <mxGeometry height="55" width="685" x="20" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-52" parent="8YOnArAEsR3aDrTVIsZX-51" style="text;html=1;align=center;fontSize=9;" value="sonicbot (Bedrock, ECR, S3, ElastiCache, RDS, Secrets Manager)  |  sonicplatform (EMR, S3)  |  spc-workflows (Redshift, EMR, RDS, ElastiCache, S3)  |  port-ocean (ReadOnly)" vertex="1">
+          <mxGeometry height="30" width="675" x="5" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-53" parent="8YOnArAEsR3aDrTVIsZX-40" style="text;html=1;align=center;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="Kafka UI (read-only) — kafka-ui.prod.eu-central-1.sonicwall.com  |  helm_release" vertex="1">
+          <mxGeometry height="25" width="685" x="20" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-54" parent="8YOnArAEsR3aDrTVIsZX-30" style="swimlane;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;startSize=25;rounded=1;" value="Data &amp; Storage Layer" vertex="1">
+          <mxGeometry height="180" width="720" x="20" y="620" as="geometry">
+            <mxRectangle height="30" width="150" x="20" y="620" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-55" parent="8YOnArAEsR3aDrTVIsZX-54" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aurora;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#C7131F;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-56" parent="8YOnArAEsR3aDrTVIsZX-54" style="text;html=1;align=center;fontSize=9;" value="Aurora PostgreSQL&#xa;(Global Secondary)&#xa;db.r7g.xlarge × 3" vertex="1">
+          <mxGeometry height="35" width="130" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-57" parent="8YOnArAEsR3aDrTVIsZX-54" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticache;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#C7131F;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-58" parent="8YOnArAEsR3aDrTVIsZX-54" style="text;html=1;align=center;fontSize=9;" value="ElastiCache Redis 7.1&#xa;Cluster Mode (2 shards × 3)&#xa;cache.t4g.medium" vertex="1">
+          <mxGeometry height="35" width="140" x="145" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-59" parent="8YOnArAEsR3aDrTVIsZX-54" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.redshift;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="335" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-60" parent="8YOnArAEsR3aDrTVIsZX-54" style="text;html=1;align=center;fontSize=9;" value="Redshift&#xa;RA3.xlplus × 2&#xa;(Snapshot → us-west-2)" vertex="1">
+          <mxGeometry height="35" width="140" x="305" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-61" parent="8YOnArAEsR3aDrTVIsZX-54" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.emr;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-62" parent="8YOnArAEsR3aDrTVIsZX-54" style="text;html=1;align=center;fontSize=9;" value="EMR Serverless&#xa;(Spark/Hive, 64 vCPU)&#xa;aws_emrserverless_application" vertex="1">
+          <mxGeometry height="35" width="140" x="470" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-63" parent="8YOnArAEsR3aDrTVIsZX-30" style="swimlane;fontStyle=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;startSize=25;rounded=1;" value="Messaging &amp; Streaming" vertex="1">
+          <mxGeometry height="120" width="720" x="20" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-64" parent="8YOnArAEsR3aDrTVIsZX-63" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.msk;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#E7157B;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-65" parent="8YOnArAEsR3aDrTVIsZX-63" style="text;html=1;align=center;fontSize=9;" value="MSK Kafka 3.5.1&#xa;3 brokers (m7g.large)&#xa;45+ topics, SASL/SCRAM" vertex="1">
+          <mxGeometry height="35" width="140" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-66" parent="8YOnArAEsR3aDrTVIsZX-63" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.opensearch_service;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-67" parent="8YOnArAEsR3aDrTVIsZX-63" style="text;html=1;align=center;fontSize=9;" value="OSIS Pipelines&#xa;(OTEL, Lambda, EMR Logs)&#xa;aws_osis_pipeline" vertex="1">
+          <mxGeometry height="35" width="140" x="170" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-68" parent="8YOnArAEsR3aDrTVIsZX-30" style="swimlane;fontStyle=1;fontSize=11;fillColor=#f0f0f0;strokeColor=#555555;startSize=25;rounded=1;" value="Observability — OpenSearch" vertex="1">
+          <mxGeometry height="120" width="720" x="20" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-69" parent="8YOnArAEsR3aDrTVIsZX-68" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.opensearch_service;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-70" parent="8YOnArAEsR3aDrTVIsZX-68" style="text;html=1;align=center;fontSize=9;" value="OpenSearch 2.11&#xa;3× r6g.large (Master)&#xa;4× r6g.xlarge (Data)&#xa;+ 2× UltraWarm" vertex="1">
+          <mxGeometry height="45" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-71" parent="8YOnArAEsR3aDrTVIsZX-68" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-72" parent="8YOnArAEsR3aDrTVIsZX-68" style="text;html=1;align=center;fontSize=9;" value="Lambda&#xa;(Log Subscriptions:&#xa;EKS, RDS, MSK, WAF)" vertex="1">
+          <mxGeometry height="45" width="130" x="195" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-73" parent="8YOnArAEsR3aDrTVIsZX-68" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-74" parent="8YOnArAEsR3aDrTVIsZX-68" style="text;html=1;align=center;fontSize=9;" value="New Relic + CloudWatch&#xa;(APM, Synthetics,&#xa;ACM Cert Alerts)" vertex="1">
+          <mxGeometry height="45" width="140" x="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-75" parent="8YOnArAEsR3aDrTVIsZX-68" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cost_explorer;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="575" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-76" parent="8YOnArAEsR3aDrTVIsZX-68" style="text;html=1;align=center;fontSize=9;" value="CloudZero&#xa;(Cost Allocation by&#xa;SonicBot/SPC/SMA)" vertex="1">
+          <mxGeometry height="45" width="140" x="545" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-77" edge="1" parent="8YOnArAEsR3aDrTVIsZX-30" source="8YOnArAEsR3aDrTVIsZX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#82b366;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-78" edge="1" parent="8YOnArAEsR3aDrTVIsZX-30" source="8YOnArAEsR3aDrTVIsZX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#b85450;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-79" edge="1" parent="8YOnArAEsR3aDrTVIsZX-30" source="8YOnArAEsR3aDrTVIsZX-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;strokeWidth=2;fontSize=9;" target="8YOnArAEsR3aDrTVIsZX-68" value="OSIS Ingestion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-80" edge="1" parent="8YOnArAEsR3aDrTVIsZX-30" source="8YOnArAEsR3aDrTVIsZX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;strokeWidth=2;dashed=1;fontSize=9;" target="8YOnArAEsR3aDrTVIsZX-68" value="OTEL Logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-81" parent="1" style="swimlane;fontStyle=1;fontSize=13;fillColor=#FDEEF4;strokeColor=#C0392B;startSize=35;rounded=1;arcSize=3;" value="AWS Region: us-west-2 (Oregon)" vertex="1">
+          <mxGeometry height="980" width="760" x="1000" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-82" parent="8YOnArAEsR3aDrTVIsZX-81" style="swimlane;fontStyle=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=25;rounded=1;" value="VPC: 10.164.144.0/20  |  3 AZs  |  aws_vpc" vertex="1">
+          <mxGeometry height="200" width="720" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-83" parent="8YOnArAEsR3aDrTVIsZX-82" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transit_gateway;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-84" parent="8YOnArAEsR3aDrTVIsZX-82" style="text;html=1;align=center;fontSize=9;" value="Transit Gateway&#xa;(TGW Attachment)&#xa;aws_ec2_transit_gateway_vpc_attachment" vertex="1">
+          <mxGeometry height="30" width="140" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-85" parent="8YOnArAEsR3aDrTVIsZX-82" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.nat_gateway;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="200" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-86" parent="8YOnArAEsR3aDrTVIsZX-82" style="text;html=1;align=center;fontSize=9;" value="NAT Gateway&#xa;(Single, Public Subnet)&#xa;aws_nat_gateway" vertex="1">
+          <mxGeometry height="30" width="130" x="170" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-87" parent="8YOnArAEsR3aDrTVIsZX-82" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.application_load_balancer;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="390" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-88" parent="8YOnArAEsR3aDrTVIsZX-82" style="text;html=1;align=center;fontSize=9;" value="ALB / NLB&#xa;(AWS LB Controller)&#xa;helm_release" vertex="1">
+          <mxGeometry height="30" width="130" x="360" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-89" parent="8YOnArAEsR3aDrTVIsZX-82" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="570" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-90" parent="8YOnArAEsR3aDrTVIsZX-82" style="text;html=1;align=center;fontSize=9;" value="Bastion Host&#xa;(t2.small, Private Subnet)&#xa;aws_instance" vertex="1">
+          <mxGeometry height="30" width="140" x="540" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-91" parent="8YOnArAEsR3aDrTVIsZX-81" style="swimlane;fontStyle=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;startSize=25;rounded=1;" value="EKS Cluster: ssp-prod-pae-usw2  (Kubernetes 1.32  |  aws_eks_cluster)" vertex="1">
+          <mxGeometry height="340" width="720" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-92" parent="8YOnArAEsR3aDrTVIsZX-91" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2_auto_scaling;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-93" parent="8YOnArAEsR3aDrTVIsZX-91" style="text;html=1;align=center;fontSize=9;" value="Node Group&#xa;t4g.large (ARM64)&#xa;1–5 nodes (AL2023)" vertex="1">
+          <mxGeometry height="35" width="130" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-94" parent="8YOnArAEsR3aDrTVIsZX-91" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2_auto_scaling;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="160" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-95" parent="8YOnArAEsR3aDrTVIsZX-91" style="text;html=1;align=center;fontSize=9;" value="Karpenter v1.2.0&#xa;(Dynamic Node Scaling)&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="140" x="135" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-96" parent="8YOnArAEsR3aDrTVIsZX-91" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.general;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="320" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-97" parent="8YOnArAEsR3aDrTVIsZX-91" style="text;html=1;align=center;fontSize=9;" value="ArgoCD + Workflows&#xa;+ Rollouts&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="130" x="295" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-98" parent="8YOnArAEsR3aDrTVIsZX-91" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="480" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-99" parent="8YOnArAEsR3aDrTVIsZX-91" style="text;html=1;align=center;fontSize=9;" value="Kong Gateway v4&#xa;(2–8 replicas, KEDA)&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="140" x="455" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-100" parent="8YOnArAEsR3aDrTVIsZX-91" style="swimlane;fontStyle=1;fontSize=10;fillColor=#f0fff0;strokeColor=#82b366;startSize=20;rounded=1;" value="Managed Add-ons &amp; Agents" vertex="1">
+          <mxGeometry height="60" width="685" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-101" parent="8YOnArAEsR3aDrTVIsZX-100" style="text;html=1;align=center;fontSize=9;" value="VPC CNI  |  CoreDNS  |  EBS CSI (gp2/gp3)  |  Cert Manager  |  External DNS  |  External Secrets  |  Pod Identity  |  AWS GuardDuty  |  OpenTelemetry v5  |  New Relic  |  Kyverno  |  Teleport v2  |  KEDA  |  Metrics Server  |  CloudZero  |  Port K8s Exporter" vertex="1">
+          <mxGeometry height="30" width="675" x="5" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-102" parent="8YOnArAEsR3aDrTVIsZX-91" style="swimlane;fontStyle=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=20;rounded=1;" value="Pod Identities (aws_eks_pod_identity_association)" vertex="1">
+          <mxGeometry height="55" width="685" x="20" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-103" parent="8YOnArAEsR3aDrTVIsZX-102" style="text;html=1;align=center;fontSize=9;" value="sonicbot (Bedrock, ECR, S3, ElastiCache, RDS, Secrets Manager)  |  sonicplatform (EMR, S3)  |  spc-workflows (Redshift, EMR, RDS, ElastiCache, S3)  |  port-ocean (ReadOnly)" vertex="1">
+          <mxGeometry height="30" width="675" x="5" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-104" parent="8YOnArAEsR3aDrTVIsZX-91" style="text;html=1;align=center;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" value="Kafka UI (read-only) — kafka-ui.prod.us-west-2.sonicwall.com  |  helm_release" vertex="1">
+          <mxGeometry height="25" width="685" x="20" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-105" parent="8YOnArAEsR3aDrTVIsZX-81" style="swimlane;fontStyle=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;startSize=25;rounded=1;" value="Data &amp; Storage Layer" vertex="1">
+          <mxGeometry height="180" width="720" x="20" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-106" parent="8YOnArAEsR3aDrTVIsZX-105" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aurora;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#C7131F;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-107" parent="8YOnArAEsR3aDrTVIsZX-105" style="text;html=1;align=center;fontSize=9;" value="Aurora PostgreSQL&#xa;(Global Primary)&#xa;db.r7g.xlarge × 3" vertex="1">
+          <mxGeometry height="35" width="130" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-108" parent="8YOnArAEsR3aDrTVIsZX-105" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticache;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#C7131F;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-109" parent="8YOnArAEsR3aDrTVIsZX-105" style="text;html=1;align=center;fontSize=9;" value="ElastiCache Redis 7.1&#xa;Cluster Mode (2 shards × 3)&#xa;cache.t4g.medium" vertex="1">
+          <mxGeometry height="35" width="140" x="145" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-110" parent="8YOnArAEsR3aDrTVIsZX-105" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.redshift;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="335" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-111" parent="8YOnArAEsR3aDrTVIsZX-105" style="text;html=1;align=center;fontSize=9;" value="Redshift&#xa;RA3.xlplus × 2&#xa;(Snapshot target from euc1)" vertex="1">
+          <mxGeometry height="35" width="140" x="305" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-112" parent="8YOnArAEsR3aDrTVIsZX-105" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.emr;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="500" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-113" parent="8YOnArAEsR3aDrTVIsZX-105" style="text;html=1;align=center;fontSize=9;" value="EMR Serverless&#xa;(Spark/Hive, 64 vCPU)&#xa;aws_emrserverless_application" vertex="1">
+          <mxGeometry height="35" width="140" x="470" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-114" parent="8YOnArAEsR3aDrTVIsZX-81" style="swimlane;fontStyle=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;startSize=25;rounded=1;" value="Messaging &amp; Streaming" vertex="1">
+          <mxGeometry height="120" width="720" x="20" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-115" parent="8YOnArAEsR3aDrTVIsZX-114" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.msk;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#E7157B;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-116" parent="8YOnArAEsR3aDrTVIsZX-114" style="text;html=1;align=center;fontSize=9;" value="MSK Kafka 3.5.1&#xa;3 brokers (m7g.large)&#xa;(Replication Source)" vertex="1">
+          <mxGeometry height="35" width="140" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-117" parent="8YOnArAEsR3aDrTVIsZX-114" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.opensearch_service;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-118" parent="8YOnArAEsR3aDrTVIsZX-114" style="text;html=1;align=center;fontSize=9;" value="OSIS Pipelines&#xa;(OTEL, Lambda, EMR Logs)&#xa;aws_osis_pipeline" vertex="1">
+          <mxGeometry height="35" width="140" x="170" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-119" parent="8YOnArAEsR3aDrTVIsZX-81" style="swimlane;fontStyle=1;fontSize=11;fillColor=#f0f0f0;strokeColor=#555555;startSize=25;rounded=1;" value="Observability — OpenSearch" vertex="1">
+          <mxGeometry height="120" width="720" x="20" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-120" parent="8YOnArAEsR3aDrTVIsZX-119" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.opensearch_service;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-121" parent="8YOnArAEsR3aDrTVIsZX-119" style="text;html=1;align=center;fontSize=9;" value="OpenSearch 2.11&#xa;3× r6g.large (Master)&#xa;4× r6g.xlarge (Data)&#xa;+ 2× UltraWarm" vertex="1">
+          <mxGeometry height="45" width="140" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-122" parent="8YOnArAEsR3aDrTVIsZX-119" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-123" parent="8YOnArAEsR3aDrTVIsZX-119" style="text;html=1;align=center;fontSize=9;" value="Lambda&#xa;(Log Subscriptions:&#xa;EKS, RDS, MSK, WAF)" vertex="1">
+          <mxGeometry height="45" width="130" x="195" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-124" parent="8YOnArAEsR3aDrTVIsZX-119" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-125" parent="8YOnArAEsR3aDrTVIsZX-119" style="text;html=1;align=center;fontSize=9;" value="New Relic + CloudWatch&#xa;(APM, Synthetics,&#xa;ACM Cert Alerts)" vertex="1">
+          <mxGeometry height="45" width="140" x="370" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-126" parent="8YOnArAEsR3aDrTVIsZX-119" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cost_explorer;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="575" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-127" parent="8YOnArAEsR3aDrTVIsZX-119" style="text;html=1;align=center;fontSize=9;" value="CloudZero&#xa;(Cost Allocation by&#xa;SonicBot/SPC/SMA)" vertex="1">
+          <mxGeometry height="45" width="140" x="545" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-128" edge="1" parent="8YOnArAEsR3aDrTVIsZX-81" source="8YOnArAEsR3aDrTVIsZX-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#82b366;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-105" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-129" edge="1" parent="8YOnArAEsR3aDrTVIsZX-81" source="8YOnArAEsR3aDrTVIsZX-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#b85450;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-114" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-130" edge="1" parent="8YOnArAEsR3aDrTVIsZX-81" source="8YOnArAEsR3aDrTVIsZX-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;strokeWidth=2;fontSize=9;" target="8YOnArAEsR3aDrTVIsZX-119" value="OSIS Ingestion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-131" edge="1" parent="8YOnArAEsR3aDrTVIsZX-81" source="8YOnArAEsR3aDrTVIsZX-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#555555;strokeWidth=2;dashed=1;fontSize=9;" target="8YOnArAEsR3aDrTVIsZX-119" value="OTEL Logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-132" parent="1" style="swimlane;fontStyle=1;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=30;rounded=1;" value="Security &amp; Identity" vertex="1">
+          <mxGeometry height="550" width="260" x="1790" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-133" parent="8YOnArAEsR3aDrTVIsZX-132" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#DD344C;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-134" parent="8YOnArAEsR3aDrTVIsZX-132" style="text;html=1;align=center;fontSize=9;" value="IAM Roles&#xa;(Pod Identities,&#xa;Cross-Account Assume)&#xa;aws_iam_role" vertex="1">
+          <mxGeometry height="40" width="130" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-135" parent="8YOnArAEsR3aDrTVIsZX-132" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#DD344C;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-136" parent="8YOnArAEsR3aDrTVIsZX-132" style="text;html=1;align=center;fontSize=9;" value="Secrets Manager&#xa;(Kafka, NewRelic,&#xa;OpenSearch, Redis)&#xa;aws_secretsmanager_secret" vertex="1">
+          <mxGeometry height="40" width="130" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-137" parent="8YOnArAEsR3aDrTVIsZX-132" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.guardduty;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#DD344C;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-138" parent="8YOnArAEsR3aDrTVIsZX-132" style="text;html=1;align=center;fontSize=9;" value="GuardDuty&#xa;(EKS Agent Add-on)&#xa;eks_addon" vertex="1">
+          <mxGeometry height="35" width="130" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-139" parent="8YOnArAEsR3aDrTVIsZX-132" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.general;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-140" parent="8YOnArAEsR3aDrTVIsZX-132" style="text;html=1;align=center;fontSize=9;" value="Kyverno&#xa;(K8s Policy Engine)&#xa;helm_release" vertex="1">
+          <mxGeometry height="35" width="130" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-141" parent="8YOnArAEsR3aDrTVIsZX-132" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.general;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="150" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-142" parent="8YOnArAEsR3aDrTVIsZX-132" style="text;html=1;align=center;fontSize=9;" value="Teleport v2&#xa;(SSH/Cluster Access,&#xa;Spoke Mode)&#xa;helm_release" vertex="1">
+          <mxGeometry height="40" width="130" x="125" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-143" parent="1" style="swimlane;fontStyle=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;startSize=30;rounded=1;" value="SonicBot (AI Platform)" vertex="1">
+          <mxGeometry height="390" width="260" x="1790" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-144" parent="8YOnArAEsR3aDrTVIsZX-143" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-145" parent="8YOnArAEsR3aDrTVIsZX-143" style="text;html=1;align=center;fontSize=9;" value="Amazon Bedrock&#xa;(Claude 3 Inference)&#xa;aws_bedrock_*" vertex="1">
+          <mxGeometry height="35" width="130" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-146" parent="8YOnArAEsR3aDrTVIsZX-143" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.opensearch_service;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#8C4FFF;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-147" parent="8YOnArAEsR3aDrTVIsZX-143" style="text;html=1;align=center;fontSize=9;" value="OpenSearch Serverless&#xa;(Knowledge Base)&#xa;aws_opensearchserverless_*" vertex="1">
+          <mxGeometry height="40" width="130" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-148" parent="8YOnArAEsR3aDrTVIsZX-143" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#EC7211;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="150" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-149" parent="8YOnArAEsR3aDrTVIsZX-143" style="text;html=1;align=center;fontSize=9;" value="Lambda (VPC)&#xa;(Knowledge Base Ops)&#xa;aws_lambda_function" vertex="1">
+          <mxGeometry height="35" width="130" x="125" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-150" parent="8YOnArAEsR3aDrTVIsZX-143" style="shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;labelBackgroundColor=#ffffff;sketch=0;fontStyle=0;fontSize=10;fillColor=#3F8624;strokeColor=none;rounded=1;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="150" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-151" parent="8YOnArAEsR3aDrTVIsZX-143" style="text;html=1;align=center;fontSize=9;" value="S3 Bucket&#xa;(ssp-prod-sonicbot-kb)&#xa;aws_s3_bucket" vertex="1">
+          <mxGeometry height="35" width="130" x="125" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-152" parent="8YOnArAEsR3aDrTVIsZX-143" style="text;html=1;align=center;fontSize=9;fillColor=#f0f0f0;strokeColor=#555555;rounded=1;" value="Port.io Integration (catalog)  |  aws_eks_pod_identity_association" vertex="1">
+          <mxGeometry height="30" width="240" x="10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-153" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#2980B9;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-154" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#8C4FFF;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-155" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#2980B9;strokeWidth=2;" target="8YOnArAEsR3aDrTVIsZX-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-156" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#8C4FFF;strokeWidth=2;dashed=1;fontSize=10;fontStyle=2;" target="8YOnArAEsR3aDrTVIsZX-81" value="Transit Gateway&#xa;(Cross-Region)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="1100" />
+              <mxPoint x="960" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-157" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;dashed=1;fontSize=9;" target="8YOnArAEsR3aDrTVIsZX-30" value="Global Replica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-158" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;dashed=1;fontSize=9;" target="8YOnArAEsR3aDrTVIsZX-81" value="Global Primary">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YOnArAEsR3aDrTVIsZX-159" edge="1" parent="1" source="8YOnArAEsR3aDrTVIsZX-115" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=2;dashed=1;fontSize=9;fontStyle=2;" target="8YOnArAEsR3aDrTVIsZX-64" value="MSK Replication">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
